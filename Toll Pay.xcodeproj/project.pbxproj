@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		0B74A79823F14D1E009686CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B74A79623F14D1E009686CA /* Main.storyboard */; };
 		0B74A79A23F14D2F009686CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B74A79923F14D2F009686CA /* Assets.xcassets */; };
 		0B74A79D23F14D2F009686CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B74A79B23F14D2F009686CA /* LaunchScreen.storyboard */; };
+		0B8675DB23F157E900BDB2E4 /* EMTNeumorphicView in Frameworks */ = {isa = PBXBuildFile; productRef = 0B8675DA23F157E900BDB2E4 /* EMTNeumorphicView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8675DB23F157E900BDB2E4 /* EMTNeumorphicView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Toll Pay";
+			packageProductDependencies = (
+				0B8675DA23F157E900BDB2E4 /* EMTNeumorphicView */,
+			);
 			productName = "Toll Pay";
 			productReference = 0B74A78D23F14D1E009686CA /* Toll Pay.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 0B74A78423F14D1E009686CA;
+			packageReferences = (
+				0B8675D923F157E800BDB2E4 /* XCRemoteSwiftPackageReference "EMTNeumorphicView" */,
+			);
 			productRefGroup = 0B74A78E23F14D1E009686CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B8675D923F157E800BDB2E4 /* XCRemoteSwiftPackageReference "EMTNeumorphicView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hirokimu/EMTNeumorphicView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B8675DA23F157E900BDB2E4 /* EMTNeumorphicView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B8675D923F157E800BDB2E4 /* XCRemoteSwiftPackageReference "EMTNeumorphicView" */;
+			productName = EMTNeumorphicView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B74A78523F14D1E009686CA /* Project object */;
 }
