@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EMTNeumorphicView",
+        "repositoryURL": "https://github.com/hirokimu/EMTNeumorphicView.git",
+        "state": {
+          "branch": null,
+          "revision": "685609629eaef0dc6e299261252dca6f8692c55b",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
