@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B12AF1C23F3EF4E00456DA7 /* AxelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12AF1B23F3EF4E00456DA7 /* AxelViewController.swift */; };
+		0B283A0123F3FA7700464568 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B283A0023F3FA7700464568 /* SignUpViewController.swift */; };
 		0B32041123F26C7600BA8B73 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32041023F26C7600BA8B73 /* UserViewController.swift */; };
 		0B665ED323F269A200587A04 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B665ED223F269A200587A04 /* SavedViewController.swift */; };
 		0B74A79123F14D1E009686CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B74A79023F14D1E009686CA /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B12AF1B23F3EF4E00456DA7 /* AxelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxelViewController.swift; sourceTree = "<group>"; };
+		0B283A0023F3FA7700464568 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0B32041023F26C7600BA8B73 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		0B665ED223F269A200587A04 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		0B74A78D23F14D1E009686CA /* Toll Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toll Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B283A0223F3FADE00464568 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B74A79423F14D1E009686CA /* ViewController.swift */,
+				0B665ED223F269A200587A04 /* SavedViewController.swift */,
+				0B32041023F26C7600BA8B73 /* UserViewController.swift */,
+				0BC9785B23F29EDE009BEE13 /* SignInViewController.swift */,
+				0B12AF1B23F3EF4E00456DA7 /* AxelViewController.swift */,
+				0B283A0023F3FA7700464568 /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		0B74A78423F14D1E009686CA = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +83,11 @@
 			children = (
 				0B74A79023F14D1E009686CA /* AppDelegate.swift */,
 				0B74A79223F14D1E009686CA /* SceneDelegate.swift */,
-				0B74A79423F14D1E009686CA /* ViewController.swift */,
+				0B283A0223F3FADE00464568 /* View Controllers */,
 				0B74A79623F14D1E009686CA /* Main.storyboard */,
 				0B74A79923F14D2F009686CA /* Assets.xcassets */,
 				0B74A79B23F14D2F009686CA /* LaunchScreen.storyboard */,
 				0B74A79E23F14D2F009686CA /* Info.plist */,
-				0B665ED223F269A200587A04 /* SavedViewController.swift */,
-				0B32041023F26C7600BA8B73 /* UserViewController.swift */,
-				0BC9785B23F29EDE009BEE13 /* SignInViewController.swift */,
 			);
 			path = "Toll Pay";
 			sourceTree = "<group>";
@@ -157,7 +171,9 @@
 			files = (
 				0B74A79523F14D1E009686CA /* ViewController.swift in Sources */,
 				0B32041123F26C7600BA8B73 /* UserViewController.swift in Sources */,
+				0B283A0123F3FA7700464568 /* SignUpViewController.swift in Sources */,
 				0BC9785C23F29EDE009BEE13 /* SignInViewController.swift in Sources */,
+				0B12AF1C23F3EF4E00456DA7 /* AxelViewController.swift in Sources */,
 				0B74A79123F14D1E009686CA /* AppDelegate.swift in Sources */,
 				0B665ED323F269A200587A04 /* SavedViewController.swift in Sources */,
 				0B74A79323F14D1E009686CA /* SceneDelegate.swift in Sources */,
